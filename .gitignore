@@ -1,0 +1,33 @@
+# Environment & secrets
+.env
+.env.*
+*.log
+
+# Office temp & lock files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# Archives & compressed data
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+.vscode/
+.idea/
+
+# Development
+.test
